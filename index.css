@@ -41,3 +41,19 @@ a, a:visited {
 a:hover {
     cursor:pointer;
 }
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size:300%;
+    color:#ffd60a;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    background-color:#000814;
+    color:#ffd60a;
+}
