@@ -4,6 +4,14 @@
     font-family:Rubkik, Arial;
 }
 
+html {
+    height:100%;
+}
+
+body {
+    height:100%;
+}
+
 nav {
     width:100%;
     display:flex;
@@ -46,14 +54,33 @@ h1 {
     font-family:'Courier New', Courier, monospace;
     font-size:300%;
     color:#ffd60a;
+    margin-top:5%;
 }
 
 main {
     display:flex;
     flex-direction:column;
     width:100%;
+    height:100%;
     justify-content:center;
     align-items:center;
     background-color:#000814;
     color:#ffd60a;
+}
+
+main article {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:5%;
+    margin:5%;
+    background-color:#003566;
+    align-items:center;
+    width:50%;
+    border-radius:25px;
+}
+
+main img {
+    max-width:25%;
+    border-radius:50px;
 }
