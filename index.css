@@ -12,8 +12,11 @@ body {
     height:100%;
 }
 
+p {
+    font-size:larger;
+}
+
 nav {
-    width:100%;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -34,7 +37,7 @@ nav ul {
     margin-right:5%;
 }
 
-li {
+nav li {
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -54,7 +57,6 @@ h1 {
     font-family:'Courier New', Courier, monospace;
     font-size:300%;
     color:#ffd60a;
-    margin-top:5%;
 }
 
 main {
@@ -83,4 +85,20 @@ main article {
 main img {
     max-width:25%;
     border-radius:50px;
+}
+
+main article ul {
+    height:100%;
+    max-width:60%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+
+main article ul a{
+    font-style:italic;
+}
+
+main article ul a:hover {
+    text-decoration:underline;
 }
